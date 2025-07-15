@@ -30,7 +30,7 @@
 
 /* Global HTML/Body/Root styling to ensure full height and control overflow */
 html, body, #root {
-  height: 50%;
+  height: 500%;
   margin: 0;
   padding: 0;
   overflow: hidden; /* Prevents main browser window from scrolling */
