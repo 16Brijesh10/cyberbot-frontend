@@ -60,8 +60,7 @@ body {
   
 }
 .header h1{
-  margin: 0 auto;
-  text-align: center;
+  padding-left: 500px;
 }
 /* Header theme styles */
 .header.light {
@@ -155,7 +154,7 @@ body {
   height: 100%; /* IMPORTANT: Takes 100% height of app-layout vertical space */
   overflow: hidden; /* Prevents main-chat itself from scrolling */
   background-color: var(--chat-bg-light); /* Default light mode */
-  padding: 20px;
+  padding-left: 505px;
 }
 .app-layout.dark .main-chat {
   background-color: var(--chat-bg-dark); /* Dark mode */
