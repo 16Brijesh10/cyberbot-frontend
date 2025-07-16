@@ -1,7 +1,7 @@
 /* HistorySidebar.css - Updated for ChatGPT style */
 
 .history-sidebar {
-  width: 450px; /* Slightly wider sidebar */
+  width: 280px; /* Slightly wider sidebar */
   padding: 20px; /* Reduced padding */
   height: 100vh;
   overflow-y: auto;
