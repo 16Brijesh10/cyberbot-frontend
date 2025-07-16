@@ -224,3 +224,47 @@ h1 {
 .sign-in-btn:hover {
   background-color: #1558b3;
 }
+/* App.css - ensure this block is at the very end of the file */
+/* --- Mobile Specific Overrides for Layout --- */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+    height: 50px;
+    /* Important: Adjust header to fit mobile width without scroll */
+    width: 100%; /* Ensure it doesn't get squished if its parent has limited width */
+    left: 0; /* Make sure it's anchored to the left */
+    box-sizing: border-box; /* Include padding in width */
+  }
+
+  .header h1 {
+    font-size: 1.1rem;
+    padding-left: 0; /* Remove left padding for mobile */
+  }
+
+  .header-buttons {
+    padding-right: 5px; /* Slightly more compact */
+    gap: 5px; /* Reduce gap between buttons */
+  }
+
+  /* CRITICAL: Hide sidebar on mobile */
+  .history-sidebar {
+    display: none; /* Make sure this is applying */
+  }
+
+  /* CRITICAL: Adjust main layout for sidebar being hidden */
+  .app-layout {
+    height: calc(100% - 50px); /* Adjust for new header height */
+    margin-top: 50px; /* Adjust for new header height */
+    /* Ensure it takes full width */
+    width: 100%;
+    overflow: hidden; /* Prevent horizontal scroll if something inside still tries to overflow */
+    box-sizing: border-box;
+  }
+
+  .main-chat {
+    /* CRITICAL: Remove padding-left on mobile */
+    padding-left: 0 !important; /* Use !important to force override */
+    width: 100%; /* Ensure it fills parent */
+    box-sizing: border-box; /* Include padding in width */
+  }
+}
