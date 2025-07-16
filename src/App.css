@@ -29,11 +29,9 @@
 }
 
 /* Global HTML/Body/Root styling to ensure full height and control overflow */
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* Prevents main browser window from scrolling */
+html {
+  font-size: 16px; /* Explicitly set the base font size for rem units */
+  /* You can adjust this value (e.g., 14px, 15px) to find what looks best */
 }
 
 body {
