@@ -21,8 +21,8 @@
 .message-wrapper { /* New wrapper for message bubbles */
   width: 100%;
   display: flex;
-  margin-bottom: 20px; /* Space between messages */
-  font-size: 1.2rem; /* Standard font size */
+  margin-bottom: 12px; /* Space between messages */
+  font-size: 1.1rem; /* Standard font size */
   line-height: 1.4;
 }
 
@@ -37,8 +37,8 @@
 
 .message {
   max-width: 100%; /* Limit message bubble width */
-  padding: 12px 18px; /* Refined padding */
-  border-radius: 30px; /* Consistent border-radius */
+  padding: 10px 15px; /* Refined padding */
+  border-radius: 20px; /* Consistent border-radius */
   white-space: pre-wrap;
   word-break: break-word; /* Ensure long words break */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.158); /* Subtle shadow for bubbles */
@@ -78,7 +78,7 @@
   position: sticky; /* Sticky to the bottom */
   bottom: 0;
   width: 100%;
-  padding: 20px;
+  padding: 15px;
   background: linear-gradient(to top, rgba(255,255,255,1) 70%, rgba(255,255,255,0)); /* Fade effect */
   transition: background-color 0.3s ease;
 }
@@ -109,7 +109,7 @@
 
 .input-box input {
   flex: 1;
-  padding: 10px 15px; /* Adjust input padding */
+  padding: 8px 12px; /* Adjust input padding */
   border: none; /* No individual border */
   background: transparent; /* Transparent background */
   font-size: 1.1rem; /* Standard font size */
@@ -147,19 +147,19 @@
 .clear-chat {
   display: flex;
   justify-content: center; /* Center the button */
-  margin-top: 15px; /* Space above button */
-  padding-bottom: 10px; /* Padding below for input area wrapper */
+  margin-top: 10px; /* Space above button */
+  padding-bottom: 5px; /* Padding below for input area wrapper */
 }
 
 .clear-chat button {
   background-color: #e0e0e0; /* Light grey */
   color: #303030;
   border: 1px solid #d0d0d0;
-  padding: 10px 20px;
-  border-radius: 8px; /* Slightly less rounded */
+  padding: 8px 15px;
+  border-radius: 6px; /* Slightly less rounded */
   cursor: pointer;
   font-weight: normal;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
