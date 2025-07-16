@@ -1,16 +1,17 @@
 /* HistorySidebar.css - Updated for ChatGPT style */
 
 .history-sidebar {
-  width: 450px; /* Slightly wider sidebar */
-  padding: 20px; /* Reduced padding */
+  width: 280px; /* Standard ChatGPT-like width */
+  min-width: 280px;
+  max-width: 280px;
   height: 100vh;
   overflow-y: auto;
-  flex-shrink: 0; /* Prevent shrinking */
-  box-shadow: 2px 0 5px rgba(0,0,0,0.05); /* Subtle shadow */
+  flex-shrink: 0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
   transition: background-color 0.3s ease, color 0.3s ease;
-  position:fixed;
-  top:0;
-  z-index: 1001;
+  position: relative; /* ✅ Not fixed */
+  z-index: 1
   
 }
 
