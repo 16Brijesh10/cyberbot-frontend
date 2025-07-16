@@ -204,28 +204,30 @@
   }
 
   .input-area-wrapper {
-    padding: 10px; /* Reduced padding for the sticky wrapper */
+    padding: 5px; /* Reduced padding for the sticky wrapper */
   }
 
   .input-box {
-    width: 98%; /* Make it almost full width on mobile */
-    padding: 6px; /* Reduce internal padding of the input box */
+    width: 100%; /* Make it almost full width on mobile */
+    padding: 4px;/* Reduce internal padding of the input box */
+    box-sizing: border-box;
   }
 
   .input-box input {
-    padding: 6px 10px; /* Adjust input field padding */
+    padding: 5px 8px; /* Adjust input field padding */
     font-size: 0.95rem; /* Adjust input font size */
   }
 
   .input-box button {
-    padding: 6px 10px; /* Adjust send button padding */
+    padding: 5px 8px; /* Adjust send button padding */
     font-size: 0.9rem; /* Adjust send button font size */
-    margin-left: 5px; /* Reduce margin */
+    margin-left: 3px; /* Reduce margin */
   }
 
   .clear-chat {
-    margin-top: 8px; /* Reduced margin above clear chat button */
-    padding-bottom: 5px; /* Keep consistent padding */
+    margin-top: 5px; /* Reduced margin above clear chat button */
+    padding-bottom: 2px; /* Keep consistent padding */
+    width: 100%; /* Ensure it spans full width to allow centering */
   }
 
   .clear-chat button {
