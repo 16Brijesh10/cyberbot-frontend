@@ -30,7 +30,7 @@
 
 /* Global HTML/Body/Root styling to ensure full height and control overflow */
 html {
-  font-size: 10px; /* Explicitly set the base font size for rem units */
+  font-size: 12px; /* Explicitly set the base font size for rem units */
   /* You can adjust this value (e.g., 14px, 15px) to find what looks best */
 }
 
