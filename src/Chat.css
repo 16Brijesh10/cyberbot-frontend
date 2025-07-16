@@ -22,8 +22,8 @@
   width: 100%;
   display: flex;
   margin-bottom: 20px; /* Space between messages */
-  font-size: 1.5rem; /* Standard font size */
-  line-height: 1.0;
+  font-size: 1.1rem; /* Standard font size */
+  line-height: 1.4;
 }
 
 .message.user .message-wrapper {
@@ -112,7 +112,7 @@
   padding: 10px 15px; /* Adjust input padding */
   border: none; /* No individual border */
   background: transparent; /* Transparent background */
-  font-size: 1.5rem; /* Standard font size */
+  font-size: 1.1rem; /* Standard font size */
   color: inherit; /* Inherit text color from parent */
   outline: none; /* Remove outline on focus */
 }
