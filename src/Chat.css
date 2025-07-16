@@ -189,3 +189,47 @@
 .app-layout.dark .spinner {
   color: #b0b0b0;
 }
+/* ... (rest of Chat.css) ... */
+
+/* --- Mobile View Adjustments --- */
+@media (max-width: 768px) {
+  .chat-messages {
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    padding-bottom: 80px; /* Ensure enough space for sticky input */
+  }
+
+  .message {
+    padding: 8px 12px; /* Slightly smaller bubbles on mobile */
+    font-size: 0.95rem; /* Slightly smaller font if needed */
+  }
+
+  .input-area-wrapper {
+    padding: 10px; /* Reduced padding for the sticky wrapper */
+  }
+
+  .input-box {
+    width: 98%; /* Make it almost full width on mobile */
+    padding: 6px; /* Reduce internal padding of the input box */
+  }
+
+  .input-box input {
+    padding: 6px 10px; /* Adjust input field padding */
+    font-size: 0.95rem; /* Adjust input font size */
+  }
+
+  .input-box button {
+    padding: 6px 10px; /* Adjust send button padding */
+    font-size: 0.9rem; /* Adjust send button font size */
+    margin-left: 5px; /* Reduce margin */
+  }
+
+  .clear-chat {
+    margin-top: 8px; /* Reduced margin above clear chat button */
+    padding-bottom: 5px; /* Keep consistent padding */
+  }
+
+  .clear-chat button {
+    padding: 8px 15px; /* Ensure button is not too small to tap */
+    font-size: 0.8rem; /* Slightly adjust clear chat button font size */
+  }
+}
