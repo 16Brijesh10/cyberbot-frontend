@@ -90,10 +90,11 @@ body {
 .header .sign-in-btn,
 .header .theme-toggle {
   border: none;
-  padding: 8px 14px;
+  padding: 6px 10px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 0.9rem;
 }
 /* Apply specific theme colors to buttons within the header */
 .header.light .sign-in-btn,
