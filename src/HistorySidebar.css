@@ -2,7 +2,7 @@
 
 .history-sidebar {
   width: 280px; /* Slightly wider sidebar */
-  padding: 20px; /* Reduced padding */
+  padding: 15px; /* Reduced padding */
   height: 100vh;
   overflow-y: auto;
   flex-shrink: 0; /* Prevent shrinking */
@@ -18,9 +18,9 @@
 
 .history-sidebar h2 { /* Changed from h3 to h2 for consistency with App.js */
   font-size: 1.3rem;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: 600;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator */
 }
 
@@ -31,14 +31,14 @@
 }
 
 .history-sidebar li {
-  padding: 10px 15px; /* More generous padding */
+  padding: 8px 12px; /* More generous padding */
   cursor: pointer;
-  border-radius: 6px; /* Slightly more rounded */
-  margin-bottom: 8px;
-  font-size: 1.2rem;
+  border-radius: 5px; /* Slightly more rounded */
+  margin-bottom: 6px;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
-  gap: 10px; /* Space for an icon if added later */
+  gap: 8px; /* Space for an icon if added later */
   transition: background-color 0.2s ease;
 }
 
