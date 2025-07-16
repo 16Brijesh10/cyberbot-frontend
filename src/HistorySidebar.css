@@ -17,7 +17,7 @@
 /* Theme-specific styles handled in App.css */
 
 .history-sidebar h2 { /* Changed from h3 to h2 for consistency with App.js */
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   font-weight: 600;
   padding-bottom: 10px;
@@ -35,7 +35,7 @@
   cursor: pointer;
   border-radius: 6px; /* Slightly more rounded */
   margin-bottom: 8px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   gap: 10px; /* Space for an icon if added later */
