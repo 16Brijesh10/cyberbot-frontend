@@ -244,6 +244,7 @@ h1 {
   .header-buttons {
     padding-right: 5px; /* Slightly more compact */
     gap: 5px; /* Reduce gap between buttons */
+    font-size: 0.9rem;
   }
 
   /* CRITICAL: Hide sidebar on mobile */
