@@ -92,7 +92,7 @@ function App() {
           <div className={`header ${darkMode ? 'dark' : 'light'}`}>
             <h1>Cyber Bot 🤖</h1>
             <div className="header-buttons">
-              {user.photoURL && <img src={user.photoURL} alt="Profile" className="profile-pic" />}
+              {user.photoURL && <img src={user.photoURL} alt="Profile" className="profile-pic" />} ({user.displayName || user.email})
               <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
                 {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
               </button>
