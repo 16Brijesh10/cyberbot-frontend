@@ -97,7 +97,7 @@ function App() {
                 {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
               </button>
               <button className="sign-in-btn" onClick={handleSignOut}>
-                ⬅️ Sign Out ({user.displayName || user.email})
+                ⬅️ Sign Out 
               </button>
             </div>
           </div>
