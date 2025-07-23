@@ -13,6 +13,7 @@ function HistorySidebar({ onSelectHistory, onNewChat, userEmail, refreshTrigger 
         setChatList(data?.titles || []);
       } catch (err) {
         console.error("Error fetching titles", err);
+        setChatList([]); 
       }
     }
     if (userEmail) {
