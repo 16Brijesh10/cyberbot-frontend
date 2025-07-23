@@ -267,7 +267,7 @@ h1 {
     padding-left: 0 !important; /* Use !important to force override */
     width: 100%; /* Ensure it fills parent */
     box-sizing: border-box; /* Include padding in width */
-    padding-top: 10px; /* Or adjust to your desired spacing */
+    padding-top: 60px; /* Or adjust to your desired spacing */
     margin-top: 0;     /* Avoid conflicting margins */
   }
 }
