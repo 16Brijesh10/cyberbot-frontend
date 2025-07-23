@@ -10,7 +10,7 @@ function HistorySidebar({ onSelectHistory, onNewChat, userEmail, refreshTrigger 
     async function fetchTitles() {
       try {
         const data = await getAvailableTitles(userEmail);
-        setChatList(data);
+        setChatList(data.titles);
       } catch (err) {
         console.error("Error fetching titles", err);
       }
